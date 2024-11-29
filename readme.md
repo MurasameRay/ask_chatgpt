@@ -1,6 +1,5 @@
 
-# 核研测试自动化工程
-
+# gpt工程
 运行环境：python 3.10
 ## 安装运行环境
 
@@ -36,5 +35,3 @@ curl -o install.ps1 https://community.chocolatey.org/install.ps1;
  python main.py
 ```
 ### mac运行环境（待补充）
-
-### 自动化测试启动测试（待补充）
