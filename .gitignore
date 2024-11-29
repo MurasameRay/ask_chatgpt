@@ -1,0 +1,26 @@
+docs/_build
+.idea
+
+# Ignore irrelevant files from the Sublime Text editor
+*.sublime-workspace
+*.sublime-project
+
+# Ignore .hgignore for contributors using Mercurial.
+.hgignore
+
+# Ignore files generated during build
+build/
+logs/
+venv/
+__pycache__/
+.DS_Store
+compare_url
+pkg
+test_data/
+output/
+testcases/
+tools/merged_domain_prefix_counts.csv
+.*
+!.gitignore
+*.xlsx
+myapp
