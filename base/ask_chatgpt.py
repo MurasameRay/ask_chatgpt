@@ -44,6 +44,6 @@ class OpenAI:
 
 if __name__ == "__main__":
     open_ai = OpenAI()
-    while True:
-        res = open_ai.create_ask("hello")
-        print(res)
+    # while True:
+    res = open_ai.create_ask("hello")
+    print(res)

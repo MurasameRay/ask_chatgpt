@@ -11,8 +11,8 @@ def ask_chatgpt():
     word = request.args.get('word')  # 从查询参数中获取 'word'
     if word:
         # 在这里处理接收到的 word
-        open_ai.create_ask(word)
-        response = f"Received word: {word}"
+        res = open_ai.create_ask(word)
+        response = f"Received word: {res}"
     else:
         response = "No word provided."
 
