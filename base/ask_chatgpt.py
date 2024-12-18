@@ -21,10 +21,10 @@ import openai
 class OpenAI:
     def __init__(self):
         # optional; defaults to `os.environ['OPENAI_API_KEY']`
-        openai.api_key = "sk-0dOOjZGkBkmAw1nv0eE6171e31D34eA5Bd58D9744cAbF8Cc"
+        openai.api_key = "sk-IVDR7MAkWixAiEco2f09F4D20eA240Ed9945A9CbC3AfB1B3"
 
         # all client options can be configured just like the `OpenAI` instantiation counterpart
-        openai.base_url = "https://free.gpt.ge/v1/"
+        openai.base_url = "https://run.v36.cm/v1/"
         openai.default_headers = {"x-foo": "true"}
 
     @staticmethod
