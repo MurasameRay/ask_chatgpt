@@ -31,7 +31,7 @@ class OpenAI:
     def create_ask(text):
         completion = openai.chat.completions.create(
             # model="gpt-3.5-turbo",
-            model="net-gpt-3.5-turbo",
+            model="gpt-3.5-turbo",
             messages=[
                 {
                     "role": "user",
