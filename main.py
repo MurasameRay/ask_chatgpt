@@ -13,7 +13,7 @@ def ask_chatgpt():
     if word:
         # 在这里处理接收到的 word
         res = open_ai.create_ask(word)
-        response = f"Received word: {res}"
+        response = f"{res}"
     else:
         response = "No word provided."
 
